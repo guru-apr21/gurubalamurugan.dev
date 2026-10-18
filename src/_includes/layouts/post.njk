@@ -1,0 +1,13 @@
+---
+layout: layouts/base.njk
+---
+<article class="post">
+  <header>
+    <h1>{{ title }}</h1>
+    <p class="meta"><time datetime="{{ page.date | isoDate }}">{{ page.date | readableDate }}</time></p>
+  </header>
+  <div class="prose">
+    {{ content | safe }}
+  </div>
+</article>
+<p class="back"><a href="/blog/">← All posts</a></p>

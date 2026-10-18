@@ -1,0 +1,17 @@
+---
+layout: layouts/base.njk
+---
+<div class="intro prose">
+  <h1>Hi, I'm Guru.</h1>
+  <p>I'm a software engineer. I write here about the things I build, the problems I solve, and what I learn along the way.</p>
+  <p>Read the <a href="/blog/">blog</a>, or find out more <a href="/about/">about me</a>.</p>
+</div>
+
+{%- set posts = collections.posts | reverse %}
+{%- if posts.length %}
+<section class="recent" aria-labelledby="recent-heading">
+  <h2 id="recent-heading">Recent writing</h2>
+  {%- set posts = posts.slice(0, 5) %}
+  {% include "post-list.njk" %}
+</section>
+{%- endif %}

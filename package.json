@@ -1,0 +1,19 @@
+{
+  "name": "gurubalamurugan.dev",
+  "version": "1.0.0",
+  "description": "Personal website and blog of Guru Balamurugan",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "author": "Guru Balamurugan",
+  "license": "UNLICENSED",
+  "type": "module",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.7",
+    "@11ty/eleventy-plugin-rss": "^3.1.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
+    "@fontsource-variable/source-serif-4": "^5.3.1"
+  },
+  "private": true
+}
