@@ -14,6 +14,7 @@ export default function (eleventyConfig) {
   // Static files copied as-is into the built site.
   eleventyConfig.addPassthroughCopy({ "src/css": "css" });
   eleventyConfig.addPassthroughCopy({ "src/CNAME": "CNAME" });
+  eleventyConfig.addPassthroughCopy({ "src/icons": "/" });
   eleventyConfig.addPassthroughCopy({
     "node_modules/@fontsource-variable/source-serif-4/files/source-serif-4-latin-wght-normal.woff2":
       "fonts/source-serif-4-normal.woff2",

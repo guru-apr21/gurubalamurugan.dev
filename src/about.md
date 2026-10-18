@@ -18,6 +18,6 @@ On this site I write about software engineering: lessons from real projects, too
 ## Elsewhere
 
 - [GitHub](https://github.com/guru-apr21)
-- LinkedIn: add your profile link here
+- [LinkedIn](https://www.linkedin.com/in/guruprakashram/)
 
 </div>
